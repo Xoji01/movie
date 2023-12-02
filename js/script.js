@@ -46,7 +46,7 @@ Films.forEach((item, i) => {
    item.innerHTML = (i + 1) + ". " + movieDB.movies [i]
 });
 
-var elements = document.querySelectorAll('.promo__interactive-list li');
+let elements = document.querySelectorAll('.promo__interactive-list li');
 
 elements.forEach((element) => {
   element.addEventListener('click', function() {
